@@ -16,5 +16,6 @@ We have decided to only allow university representatives, professors, and employ
 
 
 
-https://user-images.githubusercontent.com/67408272/222931329-f8dbd516-41d8-4bd0-81e3-8375f99a3f13.mp4
+
+https://user-images.githubusercontent.com/67408272/222931337-22dc3323-5a1e-402d-aa6f-5f9767cfd98a.mp4
 
