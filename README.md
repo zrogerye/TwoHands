@@ -1,4 +1,4 @@
 # //App Name Here
 ## Hack The Future Spring 2023 Hackathon
 
-#### text
+#### There are many places on campus where surplus items are deposited for anyone to take and reuse, though, many students are unaware of these locations. These objects are often in good condition to be reused and/or repurposed, but they eventually end up in landfills since people rarely know of their existence. Our app aims to combat excessive waste by first targeting the issues on our campus. The app make the aforementioned surplus centers and items more known and accessible to students on campus by providing a catalogue of current surplus items and their location. To have an item listed, a representative from a certain university department would contact us with images of the item, the surplus location of the item, and the item's condition. The item would then be listed onto the the catalogue for users of the app to find.
