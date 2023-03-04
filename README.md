@@ -11,5 +11,10 @@ We have decided to only allow university representatives, professors, and employ
 
 
 ## Here is a quick demo of our application.
-https://user-images.githubusercontent.com/67408272/222931290-020dd7a2-78cd-4f46-bbe7-55af54cb6681.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/67408272/222931329-f8dbd516-41d8-4bd0-81e3-8375f99a3f13.mp4
 
