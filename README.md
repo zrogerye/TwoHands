@@ -8,3 +8,8 @@
 
 
 We have decided to only allow university representatives, professors, and employees to list items, and we do so for a specific reason. We trust the university to leave objects only in the designated surplus locations. If we allowed anyone to list items, they may leave the item in an undesignated area at their convenience, which may be counterproductive to the goal of this app since they would be placing their unwanted objects in the public. 
+
+
+## Here is a quick demo of our application.
+https://user-images.githubusercontent.com/67408272/222931290-020dd7a2-78cd-4f46-bbe7-55af54cb6681.mp4
+
