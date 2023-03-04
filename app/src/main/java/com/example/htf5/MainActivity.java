@@ -47,8 +47,28 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, Item5Details.class);
                     startActivity(intent);
                 }
-                if(finalI > 4){
-                    Toast.makeText(MainActivity.this, "Please set activity", Toast.LENGTH_SHORT).show();
+                if(finalI == 5){
+                    Intent intent = new Intent(MainActivity.this, Item6Details.class);
+                    startActivity(intent);
+                }
+                if(finalI == 6){
+                    Intent intent = new Intent(MainActivity.this, Item7Details.class);
+                    startActivity(intent);
+                }
+                if(finalI == 7){
+                    Intent intent = new Intent(MainActivity.this, Item8Details.class);
+                    startActivity(intent);
+                }
+                if(finalI == 8){
+                    Intent intent = new Intent(MainActivity.this, Item9Details.class);
+                    startActivity(intent);
+                }
+                if(finalI == 9){
+                    Intent intent = new Intent(MainActivity.this, Item10Details.class);
+                    startActivity(intent);
+                }
+                if(finalI > 9){
+                    Toast.makeText(MainActivity.this, "No Item To Be Shown", Toast.LENGTH_SHORT).show();
                 }
             });
         }

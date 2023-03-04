@@ -7,29 +7,45 @@
     tools:context=".Item4Details">
 
     <RelativeLayout
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
 
         <ImageView
-            android:id="@+id/ItemImage4"
+            android:id="@+id/ItemImage1"
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
 
 
             android:layout_centerInParent="true"
             android:layout_centerVertical="true"
+            android:src="@drawable/ss" />
 
-            android:src="@drawable/ic_launcher_foreground" />
+        <TextView
+            android:id="@+id/buffer1"
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_below="@+id/ItemImage1" />
+
+        <TextView
+            android:id="@+id/bold1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buffer1"
+            android:layout_centerHorizontal="true"
+            android:text="Small Shelves 2CT."
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/ItemImage4"
+            android:layout_below="@id/bold1"
             android:layout_centerHorizontal="true"
-            android:text="PUT SOME DETAILS HERE"
-            android:textSize="24sp" />
+            android:text="This item is located in the surplus pile \n outside Wel 2.102 (Old Welch).\n The object has been used and is dirty, \n but is functionally working."
+            android:textSize="18sp" />
+
 
     </RelativeLayout>
 

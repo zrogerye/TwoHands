@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HTF5">
         <activity
+            android:name=".Item10Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item9Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item7Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item8Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item6Details"
+            android:exported="false" />
+        <activity
             android:name=".Item5Details"
             android:exported="false" />
         <activity

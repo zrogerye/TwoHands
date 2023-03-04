@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item10_details.xml" value="0.25271739130434784" />
         <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item1_details.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item2_details.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item3_details.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item4_details.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item5_details.xml" value="0.25226449275362317" />
-        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item6_details.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item7_details.xml" value="0.25" />
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item8_details.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_item9_details.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/roger/AndroidStudioProjects/HTF5/app/src/main/res/layout/activity_main.xml" value="0.15512353179424868" />
       </map>
     </option>
   </component>

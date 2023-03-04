@@ -64,13 +64,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/monitorpic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/monitors" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+
+                    android:text="Monitors 2Ct."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -102,13 +113,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/cdspic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/cd" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="CDs / CD Cases"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -141,13 +161,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/bigshelfpic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/bs" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Large Shelf"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -179,13 +208,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/smallshelfpic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ss" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Small Shelves 2CT."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -218,13 +256,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/chairpic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/chair" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Chair"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -256,13 +303,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/tablepic"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/table" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Table"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -295,13 +351,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/pvc"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pvc" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="PVC Pipes"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -333,13 +398,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/microwaves"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/microwaves" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Microwaves 2CT."
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -372,13 +446,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/spbs"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sp" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Soundproof Boards"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -410,13 +493,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/ms"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ms" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="Metal Organizer"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -428,7 +520,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -449,13 +541,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -487,13 +587,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -505,7 +613,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -526,13 +634,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -564,13 +680,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -582,7 +706,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -603,13 +727,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -641,13 +773,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -659,7 +799,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -680,13 +820,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -718,13 +866,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -736,7 +892,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -757,13 +913,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -795,13 +959,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -813,7 +985,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -834,13 +1006,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -872,13 +1052,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -890,7 +1078,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -911,13 +1099,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -949,13 +1145,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -967,7 +1171,7 @@
 
         </android.support.v7.widget.CardView>
 
-        //row 3
+        //row 2
         //col 1
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
@@ -988,13 +1192,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -1026,13 +1238,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher_foreground" />
+
+                </android.support.v7.widget.CardView>
                 <TextView
-                    android:text="Me"
+                    android:text="No Item"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -1043,238 +1263,6 @@
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
-
-        //row 3
-        //col 1
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        //col 2
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        //row 3
-        //col 1
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        //col 2
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        //row 3
-        //col 1
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        //col 2
-        <android.support.v7.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
-            >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <TextView
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
 
     </GridLayout>
 
