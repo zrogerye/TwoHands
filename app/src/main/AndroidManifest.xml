@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HTF5">
         <activity
+            android:name=".Item5Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item4Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item3Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item2Details"
+            android:exported="false" />
+        <activity
+            android:name=".Item1Details"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
