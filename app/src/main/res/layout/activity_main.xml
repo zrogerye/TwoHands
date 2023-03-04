@@ -22,12 +22,12 @@
 
         <TextView
             android:id="@+id/textGrid"
-            android:text="GRID LAYOUT"
-            android:textSize="34sp"
-            android:textColor="@color/white"
-            android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="GRID LAYOUT"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
 
     </RelativeLayout>
 
