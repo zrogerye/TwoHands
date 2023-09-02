@@ -11,7 +11,7 @@ We have decided to only allow university representatives, professors, and employ
 
 
 ## Here is a quick demo of our application.
-
+Link if video does not work: https://youtube.com/shorts/vqBTdt-BjaM
 
 
 
